@@ -8,7 +8,7 @@ function errorHandler(error){
 }
 
 function getRequest(input){
-    var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+    var url = "https://api.funtranslations.com/translate/minion.json";
     var req = url+"?text="+input;
     console.log(req);
     return req;
